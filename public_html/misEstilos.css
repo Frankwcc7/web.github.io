@@ -1,0 +1,388 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'noto sans', sans-serif;
+    color: #222222;
+}
+/*Comienzan las clases*/
+.btn-verde{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color:#ff7f50;
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+.frase{
+    text-align: center;
+    color: black;
+}
+
+/*Comienzan la primera seccion*/
+#primera-seccion{
+    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.446)),url(imagenes/fondo.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+#barra-navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav>a:hover{
+    color: #44bd32;
+}
+
+#Primera-seccion-contenido{
+
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Primera-seccion-contenido>p{
+    text-transform:capitalize;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight:bold;
+}
+#Primera-seccion-contenido>hr{
+    width:4.5rem;
+    border-color: #7bed9f;
+}
+#primera-seccion-contenido>h1{
+    font-family: 'montserrat' , sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+/*Comienza la segunda parte*/
+#segunda-seccion{
+    background-color: #eccc68;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+/*Comienza tercera parte*/
+#tercera-seccion{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#titulo{
+    margin-bottom: 2rem;
+}
+
+#titulo>h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#titulo>hr{
+    width: 4.5rem;
+    border-color: #ffa502;
+}
+#container-tercera-seccion{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-tercera{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.img-tercera>h6{
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.img-tercera>p{
+    margin-bottom: 2rem
+}
+
+.img-tercera>img{
+    max-width: 100%;
+}
+
+/*Comienza cuarta parte*/
+#cuarta-seccion{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url(imagenes/fondo2.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.mitad{
+    width: 50%;
+}
+
+#cuarta-seccion-der>h3{
+    text-transform: uppercase;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#cuarta-seccion-der>hr{
+    width: 4.5rem;
+    border-color: #ffa502;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+#cuarta-seccion-der>p{
+    margin-bottom: 4rem;
+}
+
+
+/*Comienza cuarta parte*/
+#quinta-seccion{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#quinta-seccion-izquierda{
+    flex: 1;
+}
+#quinta-seccion-izquierda>h3{
+    text-transform: uppercase;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#quinta-seccion-izquierda>p{
+    margin-bottom: 4rem;
+}
+
+#quinta-seccion-derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 10px;
+    justify-items: center;
+    align-items: center;
+}
+#quinta-seccion-derecha>img{
+    max-width: 100%;
+}
+
+#quinta-seccion-derecha>hr{
+    width: 4.5rem;
+    border-color: #ff7f50;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.paragraph{
+    font-family: sans-serif;
+    align-content: center;
+    padding: 0.5 ;
+
+}
+
+.paragraph-1{
+    font-family:sans-serif;
+    align-content:  left ;
+    padding: 0.4 ;
+}
+
+
+#botones{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color:#ff7f50;
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+}
+.titulo_con{
+    width: 100%;
+    height: 100%;
+    background: #F8F9F7;
+    padding: 10px 10px 0 10px;
+    position:relative;
+    text-align: center;
+}
+/* Estilo para el enlace "Contacto" */
+nav a[href="Contacto.html"] {
+  color: white; /* Cambia el color del texto según tus preferencias */
+  font-weight: bold; /* Cambia el peso de la fuente según tus preferencias */
+  text-decoration: underline; /* Agrega un subrayado al enlace */
+}
+/* Estilo para el enlace "Nuestro Colegio" */
+nav a[href="NuestroColegio.html"] {
+  color: white; /* Cambia el color del texto según tus preferencias */
+  font-weight: bold; /* Cambia el peso de la fuente según tus preferencias */
+  text-decoration: underline; /* Elimina cualquier decoración del enlace */
+}
+/* Estilo para el enlace "Inicio" */
+nav a[href="#Inicio"] {
+  color: white; /* Cambia el color del texto según tus preferencias */
+  font-weight: bold; /* Cambia el peso de la fuente según tus preferencias */
+  text-decoration: underline; /* Agrega una línea de subrayado al enlace */
+}
+/*Color de fondo en contactenos*/
+body {
+    background-color:orange;
+}
+
+#Contacto {
+    background-color: yellowgreen;
+}
+/*Color de boton enviar*/
+input[type="submit"] {
+  background-color: red;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1fab6d;
+}
+/*Color de boton cancelar*/
+input[type="reset"] {
+  background-color: red;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1fab6d;
+}
+
+
+
+
+
+/*formulario*/
+.formulario{    
+    width:500px;
+    max-width: 100%;                    
+    margin:auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.8);                                /* 0 en desplazamiento, 20 en difuminado, rgba los colores, el 0.3 es la transprencia*/
+    position:relative;                                                    /*Porque despues vamos a posicion otro elemento en base al formulario*/   
+}
+.formulario_titulo{
+    text-align: center;
+    margin-top: 0;
+    color:rgba(0,0,0,0.7); /* rgb(1457,74,85,0.5) en vez de 0.5, si le pongo 1 ya no hay transprarencia, empleamos el rgba porque (rojo, green, blue, alfa y alfa me permite emplear transparencia)Para que no sea muy negro le doy transparencia de 0.7*/
+}
+
+.formulario_input,.formulario_label,.formulario_submit{
+    display: block; /*para que se aprecie uno debajo de otro*/
+    width: 90%;    
+}
+
+.formulario_input{
+    padding:20px;    
+    border:1px solid rgba(0,0,0,0.3); 
+    margin-bottom: 40px;      /*Porque quiero que luego los label se suba por eso necesito este espacio                                     /*le damos este ancho por el efecto que vamos a considerar*/    
+    background: transparent; /*En color de fondo consideramos transparente para que se aprecie el texto*/
+}
+
+
+.formulario_input:focus{
+    outline:1px solid rgba(7,159,37,0.7);
+}
+.formulario_input:focus + .formulario_label{
+   margin-top: -120px;
+}
+
+.formulario_label{
+    padding-left:15px;
+    position:absolute;
+    margin-top: -85px; /*Estoy haciendo eso para poner el label sobre el input*/
+    z-index:-20; /*Para que el label se vaya detrás del input.*/
+    color:rgba(0,0,0,0.5); /* el color de texto con transparencia para que no sea totalmente negro*/
+    transition:all 0.25s;
+}
+
+.formulario_submit{
+    background: green;
+    color:#fff;
+    padding: 10px 20px;  
+    cursor:pointer;
+    border:none;    
+    margin:8px;   
+}
+
+.fijar{
+    margin-top:-120px;
+}
+
+.formulario_submit:hover{
+    background: #229797;
+} 
